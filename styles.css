@@ -1,0 +1,165 @@
+:root {
+  --color-site: #2196f3;
+  --color-text: #757575;
+  --color-btn-hero: #ffffff;
+  --color-fnt-title: #212121;
+  --background-color: #f5f4fa;
+  --fon-hero: #2f303a;
+  --footer-color: #2f303a;
+}
+
+.list {
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--color-fnt-title);
+  font-size: 14px;
+}
+/**header**/
+
+.logo {
+  font-weight: 700;
+  font-family: raleway;
+  font-size: 26px;
+  line-height: 1.7;
+  color: var(--color-fnt-title);
+}
+/**header**/
+
+.logo-web {
+  color: var(--color-site);
+}
+
+.color-studio {
+  color: var(--color-btn-hero);
+}
+
+.menu {
+  font-weight: 1.14;
+  color: var(--color-fnt-title);
+}
+.current {
+  color: var(--color-site);
+}
+.menu:active {
+  color: var(--color-site);
+}
+.menu:hover,
+.menu:focus {
+  color: var(--color-site);
+}
+
+.mail-tell {
+  color: var(--color-text);
+}
+
+.mail-tell:hover,
+.mail-tell:focus {
+  color: var(--color-site);
+}
+
+/**main**/
+
+.hero {
+  background-color: var(--fon-hero);
+}
+
+.text-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  text-align-last: Center;
+  color: var(--color-btn-hero);
+}
+
+.button-hero {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--color-btn-hero);
+  background-color: var(--color-site);
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align-last: Center;
+}
+
+.title-small {
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.synopsis {
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--color-text);
+}
+
+.synopsis-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--color-text);
+}
+/**end main**/
+/**footer**/
+.cursor {
+  cursor: default;
+}
+.address {
+  color: var(--color-btn-hero);
+}
+
+.footer {
+  background-color: var(--footer-color);
+}
+.address-list {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.71;
+}
+.section-team {
+  background-color: var(--background-color);
+}
+
+/**portfolio**/
+
+.btn-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--color-fnt-title);
+  background-color: var(--background-color);
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  color: var(--color-btn-hero);
+  background-color: var(--color-site);
+  cursor: pointer;
+}
+.projects-title {
+  font-size: 16px;
+  line-height: 2;
+}
+
+.project-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--color-text);
+}
+.address:hover,
+.address:focus {
+  color: var(--color-site);
+}
