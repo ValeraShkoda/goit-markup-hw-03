@@ -11,12 +11,30 @@
 .list {
   text-decoration: none;
   list-style: none;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+buttons {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+a {
+  margin: 0%;
+  padding: 0%;
 }
 body {
   font-family: Roboto, sans-serif;
   color: var(--color-fnt-title);
   font-size: 14px;
 }
+
 /**header**/
 
 .logo {
@@ -53,6 +71,11 @@ body {
 
 .mail-tell {
   color: var(--color-text);
+  display: flex;
+  align-items: center;
+}
+.tell {
+  margin-left: 50px;
 }
 
 .mail-tell:hover,
@@ -162,4 +185,40 @@ body {
 .address:hover,
 .address:focus {
   color: var(--color-site);
+}
+.header-conteiner {
+  justify-content: space-between;
+  display: flex;
+}
+.navigation,
+.list {
+  display: flex;
+}
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul,
+ol {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.logo {
+  margin-right: 90px;
+}
+
+.menu:not(:last-child) {
+  margin-right: 50px;
+}
+.list-it {
+  display: flex;
+  align-items: center;
 }
