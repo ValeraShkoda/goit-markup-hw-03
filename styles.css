@@ -254,10 +254,10 @@ qualities {
 .margin-iteam:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-
-.header {
-  border-bottom: #757575;
+.margin-iteam:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
 }
+
 .margin-list:not(:nth-child(4n)) {
   display: flex;
   margin-right: 30px;
@@ -272,4 +272,11 @@ qualities {
 .projects-title {
   margin-top: 20px;
   margin-bottom: 4px;
+}
+.no-link {
+  border: #212121;
+}
+.project-text {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
