@@ -7,7 +7,6 @@
   --fon-hero: #2f303a;
   --footer-color: #2f303a;
 }
-
 .list {
   text-decoration: none;
   list-style: none;
@@ -95,6 +94,10 @@ body {
   line-height: 1.37;
   text-align-last: Center;
   color: var(--color-btn-hero);
+  padding-top: 200px;
+  margin-bottom: 30px;
+  padding-right: 452px;
+  padding-left: 452px;
 }
 
 .button-hero {
@@ -104,6 +107,13 @@ body {
   line-height: 1.87;
   color: var(--color-btn-hero);
   background-color: var(--color-site);
+  margin-bottom: 210px;
+  margin-left: 700px;
+  margin-right: 700px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 .title {
   font-weight: 700;
@@ -154,6 +164,12 @@ body {
 }
 .section-team {
   background-color: var(--background-color);
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-photo {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /**portfolio**/
@@ -186,6 +202,7 @@ body {
 .address:focus {
   color: var(--color-site);
 }
+/**FLEX**/
 .header-conteiner {
   justify-content: space-between;
   display: flex;
@@ -222,4 +239,37 @@ img {
   display: flex;
   align-items: center;
 }
-/****/
+
+.title-css {
+  padding-bottom: 10px;
+}
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+qualities {
+  display: flex;
+}
+
+.margin-iteam:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.header {
+  border-bottom: #757575;
+}
+.margin-list:not(:nth-child(4n)) {
+  display: flex;
+  margin-right: 30px;
+  flex-wrap: wrap;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
