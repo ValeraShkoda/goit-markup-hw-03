@@ -16,7 +16,8 @@
 h1,
 h2,
 h3,
-p {
+p,
+tell {
   margin-top: 0%;
   margin-bottom: 0%;
 }
@@ -110,10 +111,6 @@ body {
   margin-bottom: 210px;
   margin-left: 700px;
   margin-right: 700px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 32px;
-  padding-left: 32px;
 }
 .title {
   font-weight: 700;
@@ -247,9 +244,6 @@ img {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-qualities {
-  display: flex;
-}
 
 .margin-iteam:not(:nth-child(3n)) {
   margin-right: 30px;
@@ -258,7 +252,7 @@ qualities {
   margin-bottom: 30px;
 }
 
-.margin-list:not(:nth-child(4n)) {
+.margin-item:not(:nth-child(4n)) {
   display: flex;
   margin-right: 30px;
   flex-wrap: wrap;
@@ -273,10 +267,35 @@ qualities {
   margin-top: 20px;
   margin-bottom: 4px;
 }
-.no-link {
-  border: #212121;
+.no-link:not(:nth-last-child(-n + 3n)) {
+  margin-right: 30px;
 }
+
 .project-text {
   padding-bottom: 20px;
   margin-bottom: 30px;
+}
+.list-qualities {
+  flex-basis: calc((100%-120) / 4);
+}
+.text-hero {
+  text-align: center;
+}
+.text-button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+.button-hero {
+  min-height: 50px;
+  min-width: 200px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
 }
