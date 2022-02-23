@@ -252,7 +252,7 @@ img {
 }
 .section {
   padding-bottom: 94px;
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .projects-list {
@@ -314,7 +314,6 @@ img {
   margin-right: 485px;
 }
 .text-hero {
-  display: flex;
   min-width: 696px;
   margin-left: 237px;
   margin-right: 237px;
@@ -322,4 +321,7 @@ img {
   padding-right: 40px;
   padding-left: 40px;
   padding-top: 200px;
+}
+.portfolio-card {
+  padding-left: 24px;
 }
