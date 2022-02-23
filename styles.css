@@ -262,8 +262,8 @@ img {
 }
 
 .project-text {
-  padding-bottom: 20px;
-  margin-bottom: 30px;
+  margin-top: 4px;
+  margin-bottom: 20px;
 }
 .list-qualities {
   flex-basis: calc((100%-120) / 4);
