@@ -257,13 +257,9 @@ img {
 }
 
 .projects-title {
-  margin-top: 20px;
   margin-bottom: 4px;
 }
 
-.project-text {
-  margin-bottom: 20px;
-}
 .list-qualities {
   flex-basis: calc((100%-120) / 4);
 }
@@ -319,6 +315,8 @@ img {
 }
 .portfolio-card {
   padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .filter-list {
   display: flex;
