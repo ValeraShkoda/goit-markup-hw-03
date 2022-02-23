@@ -21,10 +21,7 @@ tell {
   margin-top: 0%;
   margin-bottom: 0%;
 }
-buttons {
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
+
 a {
   margin: 0%;
   padding: 0%;
@@ -213,8 +210,7 @@ body {
 }
 
 ul,
-ol,
-li {
+ol {
   margin-top: 0%;
   margin-bottom: 0%;
   padding-left: 0;
@@ -324,4 +320,16 @@ img {
 }
 .portfolio-card {
   padding-left: 24px;
+}
+.filter-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.btn-filter {
+  padding: 4px 22px 4px 22px;
+}
+
+.btn-item:not(:last-child) {
+  margin-right: 8px;
 }

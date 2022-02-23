@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="header header-conteiner">
+    <header class="header header-conteiner" style="border: 1px solid #ececec">
       <div class="conteiner header-conteiner">
         <nav class="navigation">
           <a class="list logo" href="./index.html" lang="en">
@@ -49,21 +49,28 @@
 
     <main>
       <section class="portfolio-page conteiner section">
-        <h1 class="visually-hidden">Портфолио</h1>
+        <h1 class="visually-hidden" style="display: none">Портфолио</h1>
         <ul class="filter-list list">
-          <li><button class="btn-filter" type="button">Все</button></li>
-          <li><button class="btn-filter" type="button">Веб-сайты</button></li>
-          <li><button class="btn-filter" type="button">Приложения</button></li>
-          <li><button class="btn-filter" type="button">Дизайн</button></li>
-          <li><button class="btn-filter" type="button">Маркетинг</button></li>
+          <li class="btn-item">
+            <button style="border-radius: 4px" class="btn-filter" type="button">Все</button>
+          </li>
+          <li class="btn-item">
+            <button style="border-radius: 4px" class="btn-filter" type="button">Веб-сайты</button>
+          </li>
+          <li class="btn-item">
+            <button style="border-radius: 4px" class="btn-filter" type="button">Приложения</button>
+          </li>
+          <li class="btn-item">
+            <button style="border-radius: 4px" class="btn-filter" type="button">Дизайн</button>
+          </li>
+          <li class="btn-item">
+            <button style="border-radius: 4px" class="btn-filter" type="button">Маркетинг</button>
+          </li>
         </ul>
         <ul class="projects-list list">
           <li class="no-link margin-iteam">
             <img src="./img/8.png" alt="Ноутбук" width="368" />
-            <div
-              class="portfolio-card"
-              style="background: #ffffff; border: 1px solid #eeeeee; box-sizing: border-box"
-            >
+            <div class="portfolio-card" style="border: 1px solid #eeeeee; box-sizing: border-box">
               <h3 class="projects-title">Технокряк</h3>
               <p class="project-text">Веб-сайт</p>
             </div>
@@ -71,10 +78,7 @@
 
           <li class="no-link margin-iteam">
             <img src="./img/img9.png" alt="Игроки играют в баскетбол" width="370" />
-            <div
-              class="portfolio-card"
-              style="background: #ffffff; border: 1px solid #eeeeee; box-sizing: border-box"
-            >
+            <div class="portfolio-card" style="border: 1px solid #eeeeee; box-sizing: border-box">
               <h3 class="projects-title">
                 Постер <span lang="en">New Orlean vs Golden Star</span>
               </h3>
@@ -164,7 +168,7 @@
     <footer class="footer">
       <div class="conteiner">
         <address class="address-list">
-          <ul class="list">
+          <ul class="list footer-list">
             <li class="logo">
               <a class="list color-studio cursor" href="./index.html" lang="en"
                 ><span class="list logo-web">Web</span>Studio</a
