@@ -20,6 +20,7 @@ p,
 tell {
   margin-top: 0%;
   margin-bottom: 0%;
+  text-decoration: none;
 }
 
 a {
@@ -71,8 +72,8 @@ body {
   display: flex;
   align-items: center;
 }
-.tell {
-  margin-left: 50px;
+.mail-tell:not(:last-child) {
+  margin-right: 50px;
 }
 
 .mail-tell:hover,
@@ -103,7 +104,6 @@ body {
   line-height: 1.87;
   color: var(--color-btn-hero);
   background-color: var(--color-site);
-  margin-bottom: 200px;
 }
 
 .title {
@@ -297,21 +297,23 @@ img {
 }
 
 .margin-iteam-index {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
   width: calc((100%-90px) / 4);
   margin-right: 30px;
 }
 .button-hero {
-  margin-left: 485px;
-  margin-right: 485px;
+  display: flex;
+  justify-content: center;
 }
 .text-hero {
-  min-width: 696px;
-  margin-left: 237px;
-  margin-right: 237px;
+  max-width: 696px;
+
   margin-bottom: 30px;
-  padding-right: 40px;
-  padding-left: 40px;
-  padding-top: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .portfolio-card {
   padding-left: 24px;
@@ -329,5 +331,23 @@ img {
 
 .btn-item:not(:last-child) {
   margin-right: 8px;
+}
+.portfolio-card {
+  margin-right: 0%;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.btn-filter {
+  border: none;
+  border-radius: 4px;
+}
+
+.hero-conteiner {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /**end**/
