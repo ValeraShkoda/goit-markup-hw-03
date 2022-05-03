@@ -291,7 +291,7 @@ img {
 }
 .hero-conteiner {
   text-align: center;}
-  
+
 .text-hero {
   text-align: center;
 }
@@ -377,9 +377,9 @@ img {
 
   
 
-.address-list {
-  padding-top: 60px;
+.footer{
   padding-bottom: 60px;
+  padding-top: 60px;
 }
 .cursor-list:not(:last-child) {
   margin-bottom: 9px;
