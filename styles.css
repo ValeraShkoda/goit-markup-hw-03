@@ -163,6 +163,8 @@ body {
 
 .footer {
   background-color: var(--footer-color);
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 .address-list {
   font-weight: 400;
@@ -256,9 +258,8 @@ img {
 }
 .title-css {
   margin-bottom: 10px;
-  padding-top: 30p;
-  display: flex;
-  justify-content: center;
+ 
+
 }
 .synopsis-team {
   padding-bottom: 30p;
@@ -269,6 +270,7 @@ img {
 .employees-content {
   padding-top: 30px;
   padding-bottom: 30px;
+  text-align: center;
 }
 .section {
   padding-top: 94px;
@@ -286,9 +288,6 @@ img {
   margin-bottom: 4px;
 }
 
-.list-qualities {
-  flex-basis: calc((100%-120) / 4);
-}
 .hero-conteiner {
   text-align: center;}
 
@@ -315,7 +314,12 @@ img {
   flex-direction: column;
 }
 
-.margin-iteam:not(:nth-child(3n)) {
+
+.list-qualities:not(:last-child) {
+  margin-right: 30px;
+}
+
+.margin-iteam:not(:last-child) {
   margin-right: 30px;
 }
 .margin-iteam:not(:nth-last-child(-n + 3)) {
@@ -323,7 +327,7 @@ img {
 }
 
 .margin-iteam-index:nth-child(4n) {
-  margin-right: 0%;
+  margin-right: 30px;
 }
 
 .margin-iteam-index {
@@ -371,16 +375,6 @@ img {
   border-radius: 4px;
 }
 
-
-
-  
-
-  
-
-.footer{
-  padding-bottom: 60px;
-  padding-top: 60px;
-}
 .cursor-list:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -392,4 +386,4 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/**enddd**/
+/**end**/
