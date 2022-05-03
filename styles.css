@@ -41,6 +41,7 @@ body {
 /**header**/
 
 .logo {
+  text-decoration: none;
   font-weight: 700;
   font-family: raleway;
   font-size: 26px;
@@ -50,6 +51,7 @@ body {
 /**header**/
 
 .logo-web {
+  text-decoration: none;
   color: var(--color-site);
 }
 
@@ -57,7 +59,9 @@ body {
   color: var(--color-btn-hero);
 }
 
-.menu {
+.menu {  
+ 
+  font-weight: 500;
   font-weight: 1.14;
   color: var(--color-fnt-title);
 }
@@ -90,6 +94,8 @@ body {
 
 .hero {
   background-color: var(--fon-hero);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .text-hero {
@@ -283,6 +289,9 @@ img {
 .list-qualities {
   flex-basis: calc((100%-120) / 4);
 }
+.hero-conteiner {
+  text-align: center;}
+  
 .text-hero {
   text-align: center;
 }
@@ -293,6 +302,7 @@ img {
   padding-left: 32px;
 }
 .button-hero {
+ 
   min-height: 50px;
   min-width: 200px;
   padding-top: 8px;
@@ -324,11 +334,9 @@ img {
   width: calc((100%-90px) / 4);
   margin-right: 30px;
 }
-.button-hero {
-  display: flex;
-  justify-content: center;
-}
+
 .text-hero {
+  margin: auto;
   max-width: 696px;
 
   margin-bottom: 30px;
@@ -363,13 +371,12 @@ img {
   border-radius: 4px;
 }
 
-.hero-conteiner {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
+
+  
+
+  
+
 .address-list {
   padding-top: 60px;
   padding-bottom: 60px;
