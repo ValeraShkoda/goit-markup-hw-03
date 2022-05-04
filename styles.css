@@ -181,10 +181,7 @@ letter-spacing: 0.06rem;
 .section-team {
   background-color: var(--background-color);
 }
-.section-photo {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 /**portfolio**/
 
