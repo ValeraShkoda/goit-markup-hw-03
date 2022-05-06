@@ -95,6 +95,7 @@ body {
 /**main**/
 
 .hero {
+ 
   background-color: var(--fon-hero);
     padding-top: 200px;
     padding-bottom: 200px;
