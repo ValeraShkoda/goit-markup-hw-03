@@ -1,6 +1,6 @@
 :root {
   --color-site: #2196f3;
-  --color-text: #757575;
+  --color-text: rgba(117, 117, 117, 1);
   --color-btn-hero: #ffffff;
   --color-fnt-title: #212121;
   --background-color: #f5f4fa;
@@ -79,9 +79,8 @@ body {
 
 .mail-tell {
   color: var(--color-text);
-  display: flex;
-  align-items: center;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .mail-tell:not(:last-child) {
   margin-right: 50px;
@@ -90,6 +89,10 @@ body {
 .mail-tell:hover,
 .mail-tell:focus {
   color: var(--color-site);
+}
+.list-it{
+    display: flex;
+    align-items: center;
 }
 
 /**main**/
@@ -108,7 +111,7 @@ body {
   line-height: 1.37;
   
   color: var(--color-btn-hero);
-letter-spacing: 0.06rem;
+letter-spacing: 0.06em;
   text-align: center;
 }
 
@@ -264,7 +267,7 @@ img {
 .title-small {
   margin-left: none;
   margin-bottom: 10px;
-  padding-top: 30px;
+  
 }
 .title-css {
   letter-spacing: 0.03em;
@@ -274,10 +277,9 @@ img {
 }
 .synopsis-team {
   letter-spacing: 0.03em;
-  padding-bottom: 30p;
+  
   max-width: 270px;
-  display: flex;
-  justify-content: center;
+
 }
 .employees-content {
   padding-top: 30px;
@@ -373,7 +375,7 @@ img {
   margin-right: 0%;
   background: #ffffff;
   border: 1px solid #eeeeee;
-  box-sizing: border-box;
+  border-top: none;
 }
 .btn-filter {
   letter-spacing: 0.03em;
